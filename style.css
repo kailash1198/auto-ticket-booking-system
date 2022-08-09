@@ -1,0 +1,134 @@
+/* ========= RESOURCES ==========  */
+
+
+/* font-family: 'Radio Canada', sans-serif; */
+
+
+/* ============ CSS RESET ==============  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+
+/* ============== NAVBAR-ONE ============= */
+
+#navOne {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.205);
+    font-family: 'Radio Canada', sans-serif;
+}
+
+#navOne .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ============== NAVBAR-TWO ============= */
+
+#navTwo {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#navTwo .container {
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navTwo .container .box1 {
+    display: flex;
+}
+
+#navTwo .container .box1 .sub-box {
+    padding: 0.6rem;
+    margin: 0rem 2rem;
+    border-right: 1px solid rgba(255, 255, 255, 0.146);
+}
+
+#navTwo .container .box1 .sub-box i {
+    background-color: #FFC000;
+    padding: 0.7rem;
+    border-radius: 210px;
+    color: black;
+    font-size: 0.8rem;
+}
+
+#navTwo .container .box2 .social-icon i {
+    margin: 0.5rem;
+    background-color: black;
+    padding: 0.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.203);
+    border-radius: 200px;
+    font-size: 1rem;
+    transition: all 0.5s;
+}
+
+#navTwo .container .box2 .social-icon i:hover {
+    background-color: #FFC000;
+    color: black;
+}
+
+
+/* =============== NAVBAR MAIN ==============  */
+
+#navMain {
+    width: 100%;
+    height: auto;
+}
+
+#navMain .container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navMain .container .logo {
+    width: 40%;
+    height: auto;
+    background-image: url(/images/pattern_bg_1.png);
+    padding: 2rem;
+}
+
+#navMain .container .menu {
+    width: 60%;
+    height: auto;
+    background-color: #FFC000;
+    padding: 2rem;
+}
+
+#navMain .container .menu .navbar ul {
+    height: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#navMain .container .menu .navbar ul li {
+    height: auto;
+    list-style: none;
+    margin: 0rem 1rem;
+}
+
+#navMain .container .menu .navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
