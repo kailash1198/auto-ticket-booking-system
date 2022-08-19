@@ -169,3 +169,66 @@
     width: 50%;
     margin: auto;
 }
+
+
+/* ============== ABOUT SECTION ==================  */
+
+#about {
+    width: 100%;
+    padding: 2rem 0rem;
+}
+
+#about .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#about .container .box {
+    width: 100%;
+    padding: 1rem;
+}
+
+#about .container .box h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0rem;
+}
+
+#about .container .box .about-para {
+    /* margin: 1rem 0rem; */
+    padding: 1rem 0rem;
+    color: gray;
+    line-height: 1.8;
+}
+
+#about .container .box .about-founder {
+    display: flex;
+    align-items: center;
+}
+
+#about .container .box .about-founder .founder-img img {
+    border-radius: 50%;
+}
+
+#about .container .box .about-founder .founder-details {
+    margin-left: 1rem;
+}
+
+#about .container .box .btnOne {
+    padding: 2rem 0rem;
+}
+
+#about .container .box .btnOne a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(238, 205, 15);
+    padding: 1rem 1.5rem;
+    font-weight: bolder;
+    transition: all 0.6s;
+}
+
+#about .container .box .btnOne a:hover {
+    background-color: black;
+    color: white;
+}
