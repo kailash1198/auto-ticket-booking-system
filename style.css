@@ -232,3 +232,86 @@
     background-color: black;
     color: white;
 }
+
+
+/* ================ OUR SERVICES SECTION =================  */
+
+#services {
+    width: 100%;
+    background-image: url(./images/service-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 3rem 0rem;
+}
+
+#services .container {
+    width: 90%;
+    margin: auto;
+}
+
+#services .container .services-heading {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+#services .container .services-heading h1 {
+    font-size: 2.5rem;
+    padding: 1rem 0rem;
+}
+
+#services .container .services-heading p {
+    width: 50%;
+    margin: auto;
+}
+
+#services .container .card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#services .container .card-container .card {
+    margin: 0.5rem;
+    background-color: white;
+}
+
+#services .container .card-container .card .card-text {
+    padding: 1.5rem;
+}
+
+#services .container .card-container .card .card-content img {
+    width: 100%;
+}
+
+#services .container .card-container .card .card-text h2 {
+    padding: 0.5rem 0rem;
+}
+
+#services .container .card-container .card .card-text p {
+    padding: 0.5rem 0rem;
+    line-height: 1.7;
+}
+
+#services .container .card-container .card .card-text .service-btn {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+#services .container .card-container .card .card-text .service-btn a {
+    width: 100%;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    padding: 0.7rem 1.5rem;
+    border-radius: 100% 0% 56% 44% / 30% 19% 81% 70%;
+    transition: all 0.5s;
+}
+
+#services .container .card-container .card .card-text .service-btn a:hover {
+    background-color: rgb(230, 226, 11);
+    color: black;
+}
