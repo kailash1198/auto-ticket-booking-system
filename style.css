@@ -315,3 +315,120 @@
     background-color: rgb(230, 226, 11);
     color: black;
 }
+
+
+/* ================= OUR AVAILABLE TAXIS ================   */
+
+#taxi {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.042);
+    padding: 3rem 0rem;
+}
+
+#taxi .container {
+    width: 90%;
+    margin: auto;
+}
+
+#taxi .container .taxi-heading {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+#taxi .container .taxi-heading h1 {
+    padding: 1rem 0rem;
+    font-size: 3rem;
+}
+
+#taxi .container .taxi-heading p {
+    color: gray;
+    line-height: 1.7;
+    width: 50%;
+    margin: auto;
+}
+
+#taxi .container .taxi-cate {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+
+#taxi .container .taxi-cate h3 {
+    background-color: black;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+}
+
+#taxi .container .taxi-cate .special {
+    background-color: #FFC000;
+    color: black;
+}
+
+#taxi .container .taxi-details {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 1px 0px 30px rgb(238, 232, 232);
+}
+
+#taxi .container .taxi-details .card {
+    width: 100%;
+}
+
+#taxi .container .taxi-details .card .content {
+    width: 100%;
+}
+
+#taxi .container .taxi-details .card .content .box {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+
+#taxi .container .taxi-details .card .content .box h3 {
+    width: 100%;
+}
+
+#taxi .container .taxi-details .card .content .box p {
+    width: 100%;
+    margin-left: 1rem;
+}
+
+#taxi .container .taxi-details .card img {
+    width: 100%;
+}
+
+#taxi .container .taxi-details .card-3 {
+    width: 100%;
+    padding: 0rem 1rem;
+}
+
+#taxi .container .taxi-details .card-3 p {
+    color: gray;
+}
+
+#taxi .container .taxi-details .card-3 h3 {
+    padding: 1rem 0rem;
+}
+
+#taxi .container .taxi-details .card-3 .btn {
+    padding: 2rem 0rem;
+}
+
+#taxi .container .taxi-details .card-3 .btn a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem 1.5rem;
+    background-color: #ffc000;
+    font-weight: bolder;
+}
