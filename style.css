@@ -432,3 +432,65 @@
     background-color: #ffc000;
     font-weight: bolder;
 }
+
+
+/* ================= OUR ADVANTAGE ================  */
+
+#advantage {
+    width: 100%;
+    height: auto;
+    padding: 3rem 0rem;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.404)), url(./images/advantage-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#advantage .container {
+    width: 90%;
+    margin: auto;
+}
+
+#advantage .container .heading {
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+#advantage .container .heading h1 {
+    font-size: 2.5rem;
+    padding: 1rem 0rem;
+}
+
+#advantage .container .heading p {
+    width: 50%;
+    margin: auto;
+    line-height: 1.6;
+}
+
+#advantage .container .card-container {
+    width: 100%;
+    display: flex;
+    padding: 2.5rem 0rem;
+}
+
+#advantage .container .card-container .card {
+    background-color: white;
+    margin: 0rem 1rem;
+    padding: 3rem 1.5rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+#advantage .container .card-container .card .card-content {
+    padding: 1rem 0rem;
+}
+
+#advantage .container .card-container .card .card-content i {
+    font-size: 2rem;
+    padding: 1rem 0rem;
+}
+
+#advantage .container .card-container .card .card-content h2 {
+    padding: 1rem 0rem;
+}
