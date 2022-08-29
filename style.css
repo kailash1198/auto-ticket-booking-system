@@ -494,3 +494,88 @@
 #advantage .container .card-container .card .card-content h2 {
     padding: 1rem 0rem;
 }
+
+
+/* =============== price section =======================  */
+
+#price {
+    width: 100%;
+    padding: 3rem 0rem;
+    background-color: white;
+}
+
+#price .container {
+    width: 90%;
+    margin: auto;
+}
+
+#price .container .heading {
+    width: 100%;
+    padding: 2rem 0rem;
+    text-align: center;
+}
+
+#price .container .heading h1 {
+    font-size: 2rem;
+}
+
+#price .container .heading p {
+    width: 50%;
+    margin: auto;
+    color: rgba(128, 128, 128, 0.653);
+    padding: 1rem 0rem;
+    line-height: 1.6;
+}
+
+#price .container .card-container {
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    background-color: rgb(10, 10, 111);
+    color: white;
+}
+
+#price .container .card-container .card {
+    background-color: black;
+    margin: 0rem 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+#price .container .card-container .card .card-content {
+    padding: 1rem;
+}
+
+#price .container .card-container .card .card-content .title {
+    background-color: #FFC000;
+    color: black;
+    padding: 1rem;
+}
+
+#price .container .card-container .card .card-content .rate-about {
+    padding: 1.5rem 0rem;
+}
+
+#price .container .card-container .card .card-content .divider-line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.461);
+}
+
+#price .container .card-container .card .card-content .box {
+    padding: 3rem 0rem;
+}
+
+#price .container .card-container .card .card-content .box .small-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0rem;
+}
+
+#price .container .card-container .card .card-content .btn a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+}
