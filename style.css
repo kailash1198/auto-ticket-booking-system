@@ -594,3 +594,48 @@
     margin: auto;
     display: flex;
 }
+
+#review .container .box {
+    width: 100%;
+    margin: 0rem 1rem;
+}
+
+#review .container .box .card1 h1 {
+    font-size: 3rem;
+}
+
+#review .container .box .card1 p {
+    padding: 1rem 0rem;
+    color: gray;
+    line-height: 1.8;
+}
+
+#review .container .box .card1 img {
+    width: 100%;
+}
+
+#review .container .box .card2,
+.card3 {
+    padding: 1rem;
+    /* background-color: yellow; */
+    border: 1px solid orange;
+    text-align: center;
+}
+
+#review .container .box .card .user-img img {
+    border-radius: 50%;
+}
+
+#review .container .box .card .user-name {
+    padding: 0.2rem 0rem;
+}
+
+#review .container .box .card .user-des {
+    padding: 0.3rem 0rem;
+}
+
+#review .container .box .card .user-messege {
+    padding: 1rem 0rem;
+    line-height: 1.7;
+    color: gray;
+}
