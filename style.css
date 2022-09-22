@@ -579,3 +579,18 @@
     color: black;
     padding: 1rem;
 }
+
+
+/* ================== Review section ==============  */
+
+#review {
+    width: 100%;
+    height: auto;
+    padding: 3rem 0rem;
+}
+
+#review .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
