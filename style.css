@@ -639,3 +639,56 @@
     line-height: 1.7;
     color: gray;
 }
+
+
+/* ================= CALL-US SECTION =========    */
+
+#callUs {
+    width: 100%;
+    height: auto;
+    padding: 2rem 0rem;
+}
+
+#callUs .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+#callUs .container .card {
+    width: 100%;
+    margin: 0rem 1rem;
+    padding: 1rem;
+}
+
+#callUs .container .card img {
+    width: 100%;
+}
+
+#callUs .container .card2 h1 {
+    padding: 0.5rem 0rem;
+    font-size: 2rem;
+}
+
+#callUs .container .card2 h2 {
+    padding: 0.5rem 0rem;
+    font-size: 2rem;
+    color: #FFC000;
+}
+
+#callUs .container .card2 p {
+    padding: 1.5rem 0rem;
+    color: gray;
+    line-height: 1.9;
+}
+
+#callUs .container .card2 .btn {
+    margin-top: 2rem;
+}
+
+#callUs .container .card2 .btn a {
+    text-decoration: none;
+    color: black;
+    background-color: #FFC000;
+    padding: 1rem 1.5rem;
+}
