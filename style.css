@@ -732,3 +732,70 @@
 #count .container .box .card p {
     padding: 0.5rem 0rem;
 }
+
+
+/* ================ NEWS SECTION ================  */
+
+#news {
+    width: 100%;
+    padding: 4rem 0rem;
+}
+
+#news .container {
+    width: 90%;
+    margin: auto;
+}
+
+#news .container .box1 {
+    text-align: center;
+    padding: 3rem 0rem;
+}
+
+#news .container .box1 p {
+    color: #FFC000;
+    font-weight: bold;
+}
+
+#news .container .box1 h1 {
+    padding: 0.5rem 0rem;
+    font-size: 2.5rem;
+}
+
+#news .container .box2 {
+    width: 100%;
+}
+
+#news .container .box2 .box-container {
+    width: 100%;
+    display: flex;
+}
+
+#news .container .box2 .box-container .card {
+    width: 100%;
+    margin: 1rem;
+    background-color: white;
+    box-shadow: 1px 1px 20px rgba(128, 128, 128, 0.169);
+}
+
+#news .container .box2 .box-container .card img {
+    width: 100%;
+}
+
+#news .container .box2 .box-container .card .card-content {
+    width: 100%;
+    padding: 2rem;
+}
+
+#news .container .box2 .box-container .card .card-content .news-cat {
+    color: #FFC000;
+    font-weight: bold;
+}
+
+#news .container .box2 .box-container .card .card-content .news-title {
+    padding: 1rem 0rem;
+}
+
+#news .container .box2 .box-container .card .card-content span {
+    color: gray;
+    margin: 0rem 1rem;
+}
