@@ -692,3 +692,43 @@
     background-color: #FFC000;
     padding: 1rem 1.5rem;
 }
+
+
+/* =============== COUNT SECTION ================  */
+
+#count {
+    width: 100%;
+    padding: 5rem 0rem;
+    background-image: linear-gradient(rgba(14, 14, 14, 0.911), rgba(52, 16, 211, 0.689)), url('./images/count.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    color: white;
+}
+
+#count .container {
+    width: 90%;
+    margin: auto;
+}
+
+#count .container .box {
+    display: flex;
+    padding: 3rem 0rem;
+}
+
+#count .container .box1 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.345);
+}
+
+#count .container .box .card {
+    width: 100%;
+    text-align: center;
+}
+
+#count .container .box .card i {
+    font-size: 4rem;
+}
+
+#count .container .box .card p {
+    padding: 0.5rem 0rem;
+}
