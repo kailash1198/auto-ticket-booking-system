@@ -799,3 +799,145 @@
     color: gray;
     margin: 0rem 1rem;
 }
+
+
+/* =============== CLIENT LOGO SECTION ============  */
+
+#clientLogo {
+    width: 100%;
+    padding: 3rem 0rem;
+}
+
+#clientLogo .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#clientLogo .container .card {
+    padding: 1rem;
+    border: 1px solid rgba(128, 128, 128, 0.256);
+}
+
+#clientLogo .container .card img {
+    filter: grayscale(2);
+    opacity: 0.4;
+    width: 100%;
+}
+
+
+/* =================== FOOTER =================  */
+
+footer {
+    width: 100%;
+    padding: 3rem 0rem;
+    background-color: black;
+    color: white;
+}
+
+footer .container {
+    width: 90%;
+    margin: auto;
+}
+
+footer .container .footer-top {
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.119);
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .container .footer-top .sub-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .container .footer-top .sub-box .icon i {
+    padding: 1rem;
+    background-color: #FFC000;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+footer .container .footer-top .sub-box .content h2 {
+    padding: 0.5rem 0rem;
+}
+
+footer .container .footer-content {
+    width: 100%;
+    padding: 3rem 0rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .container .footer-content .sub-box {
+    width: 100%;
+    margin: 0rem 1.5rem;
+}
+
+footer .container .footer-content .sub-box h2 {
+    padding: 1rem 0rem;
+}
+
+footer .container .footer-content .sub-box1 p {
+    padding: 1rem 0rem;
+    line-height: 1.6;
+    color: rgba(128, 128, 128, 0.699);
+}
+
+footer .container .footer-content .sub-box1 i {
+    padding: 0.5rem;
+    margin: 0rem 0.5rem;
+    background-color: #FFC000;
+    border-radius: 50%;
+}
+
+footer .container .footer-content .sub-box2 .blog-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .footer-content .sub-box2 .blog-card img {
+    width: 100%;
+}
+
+footer .container .footer-content .sub-box2 .blog-card .blog-box {
+    margin: 1.5rem 0rem;
+}
+
+footer .container .footer-content .sub-box2 .blog-card .blog-box img {
+    padding: 0.5rem;
+}
+
+footer .container .footer-content .sub-box2 .blog-card .blog-box span {
+    padding: 0.2rem;
+    color: gray;
+}
+
+footer .container .footer-content .sub-box3 p {
+    padding: 0.7rem 0rem;
+    color: rgba(128, 128, 128, 0.785);
+}
+
+footer .container .footer-content .sub-box4 .hours-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container .footer-content .sub-box4 .hours-box p {
+    padding: 0.5rem 0rem;
+}
+
+footer .container .footer-copy {
+    background-color: #FFC000;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 1rem;
+    color: black;
+}
